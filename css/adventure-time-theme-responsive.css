@@ -1,0 +1,172 @@
+/*Inserta tu Codigo Responsive*/
+* {
+	color: #A19EA1;
+}
+
+body {
+	background-color: #F5F5F5 !important;
+	overflow-x: hidden; 
+}
+
+header {
+	bottom: 0;
+	background-color: #393444;
+	font-size: 1.3em;
+}
+
+.bgpurple {
+	background-color: #393444;
+}
+
+a {
+	text-decoration: none !important;
+	padding: 10px;
+}
+
+.logout {
+	height: 2% !important;
+	font-size: 1em !important;
+	top: 0 !important;
+}
+
+.fs1 {
+	font-size: 15px !important;
+}
+
+.white {
+	color: white;
+}
+
+.fll {
+	float: left;
+}
+
+.flr {
+	float: right;
+}
+
+aside {
+	width: 200px;
+	display: inline;
+}
+
+section {
+	float: left;
+	width: 100%;
+	padding-top: 1%;
+	display: inline;
+}
+
+
+.pdt3 {
+	padding: 1% 3%;
+}
+
+.bglila {
+	background-color: #87274D;
+}
+
+ul li {
+	list-style: none;
+	margin: 10% 0;
+	font-size: 1.2em;
+}
+
+.mg2 {
+	margin-left: 20%;
+}
+
+.top3 {
+	top: 3%;
+}
+
+.box1 {
+	border-bottom: 1px solid;
+	text-align: center;
+	font-size: 2.5em;
+}
+
+.orange {
+	color: #F46821;
+	text-align: center;
+}
+
+.well {
+	background-color: white !important;
+}
+
+.candy {
+	padding: 1%;
+	margin: 10% 5%;
+}
+
+.candy h3 {
+	font-size: 1.5em;
+}
+
+.colorbl {
+	background-color: #42DADB !important;
+}
+
+.brbottom {
+	border-bottom: solid 1px #BEC0C7;
+}
+
+.pdt3 {
+	padding-top: 3%;
+}
+
+.top-menu :hover a {
+	background-color: #87274D !important;
+	color: white;
+}
+
+.sub :hover a {
+	background-color: #87274D !important;
+	color: white;
+}
+
+.sub {
+	height: 10%; 
+	margin: 1%;
+}
+
+
+
+
+
+/*LOGIN*/
+
+#login-page {
+	padding: 8% 20%;
+}
+
+.login1 {
+	padding: 0% !important; 
+	width: auto !important;
+}
+
+#adventure {
+	margin: -9% -9% 5 -9% !important;
+	padding: 0% !important;
+	border-radius: 5px;
+}
+
+#adventure h2 {
+	margin: 0 0 10px 0 !important;
+	width: 100%; 
+}
+
+.mg3 {
+	margin: 5% !important;
+}
+
+@media (min-width: 750px) {
+	.login1 {
+	padding: 0% !important; 
+	width: 40% !important;
+}
+}
+
+
+

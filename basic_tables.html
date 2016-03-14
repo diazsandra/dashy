@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Dashboard">
+    <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+    <link rel="stylesheet" type="text/css" href="css/adventure-time-theme.css">
+    <link rel="stylesheet" type="text/css" href="css/adventure-time-theme-responsive.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/lineicons.css">
+
+    <title>Adventure time: Dashboard</title>
+
+   
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    
+  </head>
+
+  <body>
+
+    <header class="header black-bg bgpurple">
+        <div class="row pdt3">
+<!-- Falta ajustar bien los tamaños-->  
+          <div class="col-xs-3 col-sm-1 ">
+            <div class="sidebar-toggle-box">
+          <i class="fa fa-bars tooltips white text-center" data-placement="right" data-original-title="Toggle Navigation"></i>
+              </div>  
+            </div>
+      
+      <div class="sub">
+              <div class="col-xs-5 col-sm-10">
+                <a href="dashboard.html" class="logo">
+                  <b class="hidden-xs white">ADVENTURE TIME: DASHBOARD</b>
+                  <b class="visible-xs white">ADV.TIME</b>
+              </a>
+            </div>
+      </div>
+          
+          <div class="col-xs-4 col-sm-1 ">
+            <div class="top-menu">
+              <ul class="nav pull-right top-menu bglila logout">
+                  <li><a class="white fs1" href="login.html">Logout</a></li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </header>
+
+      <div class="clearfix">
+      <aside class="bgpurple">
+<!-- Darle los :hover -->
+        <div id="sidebar"  class="nav-collapse">
+          <ul class="sidebar-menu">
+            <div>
+              <a href="profile.html">
+                <img src="img/profile_avatar.png" class="img-circle mg2" width="60">
+              </a>
+            </div>
+            <h5 class="text-left white"> Bonnibel Bubblegum</h5>
+            <br> 
+
+            <div class="sub">
+              <li class="sub-menu">
+                  <a class="active" href="dashboard.html">
+                  <i class="fa fa-dashboard white"></i>
+                  <span class="white">Dashboard</span>
+                  </a>
+              </li>
+            </div>
+
+            <div class="sub">
+            <li class="sub-menu ">
+              <a href="buttons.html" >
+                <i class="fa fa-desktop white"></i>
+                <span class="white">Buttons</span>
+              </a>
+            </li>
+            </div>
+
+            <div class="sub">
+              <li class="sub-menu">
+                  <a href="progress.html" >
+                  <i class="fa fa-desktop white"></i>
+                  <span class="white">Progress Bars</span>
+                  </a>
+              </li>  
+            </div>
+
+            <div class="sub">          
+              <li class="sub-menu">
+                  <a href="form_component.html" >
+                  <i class="fa fa-cogs white"></i>
+                  <span class="white">Forms</span>
+                  </a>
+              </li>
+            </div>
+
+            <div class="sub">
+              <li class="sub-menu">
+                  <a href="basic_tables.html" >
+                  <i class="fa fa-th white"></i>
+                  <span class="white">Data Tables</span>
+                  </a>
+              </li>
+            </div>
+
+            <div class="sub">            
+              <li class="sub-menu">
+                  <a href="gallery.html" >
+                  <i class="fa fa-tasks white"></i>
+                  <span class="white">Gallery</span>
+                  </a>
+              </li>
+            </div>
+
+            <div class="sub">
+              <li class="sub-menu">
+                  <a href="login.html" >
+                  <i class="fa fa-book white"></i>
+                  <span class="white">Login Page</span>
+                  </a>
+              </li>
+            </div>
+
+          </ul>
+        </div>
+      </aside>
+
+      <section class="container">
+      <!--main content start-->
+      <section id="main-content">
+        <section class="wrapper">
+          <h3><i class="fa fa-angle-right"></i> Basic Table Examples</h3>
+          <div class="row">
+            
+            <div class="col-md-12 well">
+              <div class="content-panel">
+                <h4><i class="fa fa-angle-right"></i> Basic Table</h4>
+                <hr>
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>#</th>
+                      <th>First Name</th>
+                      <th>Last Name</th>
+                      <th>Username</th>
+                    </tr>
+                  </thead>
+                  
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>Mark</td>
+                      <td>Otto</td>
+                      <td>@mdo</td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>Jacob</td>
+                      <td>Thornton</td>
+                      <td>@fat</td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td>Larry</td>
+                      <td>the Bird</td>
+                      <td>@twitter</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div><!--/content-panel -->
+            </div><!-- /col-md-12 -->
+            
+            <div class="col-md-12 mt well">
+              <div class="content-panel">
+                <table class="table table-hover">
+                  <h4><i class="fa fa-angle-right"></i> Hover Table</h4>
+                  <hr>
+                  <thead>
+                    <tr>
+                      <th>#</th>
+                      <th>First Name</th>
+                      <th>Last Name</th>
+                      <th>Username</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>Mark</td>
+                      <td>Otto</td>
+                      <td>@mdo</td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>Jacob</td>
+                      <td>Thornton</td>
+                      <td>@fat</td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td>Simon</td>
+                      <td>Mosa</td>
+                      <td>@twitter</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div><!--/content-panel -->
+            </div><!-- /col-md-12 -->
+          </div><!-- row -->
+
+          <div class="row mt well">
+            <div class="col-md-12">
+              <div class="content-panel">
+                <table class="table table-striped table-advance table-hover">
+                  <h4><i class="fa fa-angle-right"></i> Advanced Table</h4>
+                  <hr>
+                  <thead>
+                    <tr>
+                      <th><i class="fa fa-bullhorn"></i> Company</th>
+                      <th class="hidden-phone"><i class="fa fa-question-circle"></i> Descrition</th>
+                      <th><i class="fa fa-bookmark"></i> Profit</th>
+                      <th><i class=" fa fa-edit"></i> Status</th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><a href="basic_table.html#">Company Ltd</a></td>
+                      <td class="hidden-phone">Lorem Ipsum dolor</td>
+                      <td>12000.00$ </td>
+                      <td><span class="label label-info label-mini">Due</span></td>
+                      <td>
+                        <button class="btn btn-success btn-xs"><i class="fa fa-check white"></i></button>
+                        <button class="btn btn-primary btn-xs"><i class="fa fa-pencil white"></i></button>
+                        <button class="btn btn-danger btn-xs"><i class="fa fa-trash-o  white"></i></button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <a href="basic_table.html#">
+                          Dashgum co
+                        </a>
+                      </td>
+                      <td class="hidden-phone">Lorem Ipsum dolor</td>
+                      <td>17900.00$ </td>
+                      <td><span class="label label-warning label-mini">Due</span></td>
+                      <td>
+                        <button class="btn btn-success btn-xs"><i class="fa fa-check white"></i></button>
+                        <button class="btn btn-primary btn-xs"><i class="fa fa-pencil white"></i></button>
+                        <button class="btn btn-danger btn-xs"><i class="fa fa-trash-o white "></i></button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <a href="basic_table.html#">
+                          Another Co
+                        </a>
+                      </td>
+                      <td class="hidden-phone">Lorem Ipsum dolor</td>
+                      <td>14400.00$ </td>
+                      <td><span class="label label-success label-mini">Paid</span></td>
+                      <td>
+                        <button class="btn btn-success btn-xs"><i class="fa fa-check white"></i></button>
+                        <button class="btn btn-primary btn-xs"><i class="fa fa-pencil white"></i></button>
+                        <button class="btn btn-danger btn-xs"><i class="fa fa-trash-o white "></i></button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <a href="basic_table.html#">
+                          Dashgum ext
+                        </a>
+                      </td>
+                      <td class="hidden-phone">Lorem Ipsum dolor</td>
+                      <td>22000.50$ </td>
+                      <td><span class="label label-success label-mini">Paid</span></td>
+                      <td>
+                        <button class="btn btn-success btn-xs"><i class="fa fa-check white"></i></button>
+                        <button class="btn btn-primary btn-xs"><i class="fa fa-pencil white"></i></button>
+                        <button class="btn btn-danger btn-xs"><i class="fa fa-trash-o  white"></i></button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><a href="basic_table.html#">Total Ltd</a></td>
+                      <td class="hidden-phone">Lorem Ipsum dolor</td>
+                      <td>12120.00$ </td>
+                      <td><span class="label label-warning label-mini">Due</span></td>
+                      <td>
+                        <button class="btn btn-success btn-xs"><i class="fa fa-check white"></i></button>
+                        <button class="btn btn-primary btn-xs"><i class="fa fa-pencil white"></i></button>
+                        <button class="btn btn-danger btn-xs"><i class="fa fa-trash-o white "></i></button>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div><!-- /content-panel -->
+            </div><!-- /col-md-12 -->
+          </div><!-- /row -->
+
+        </section><!--/wrapper -->
+      </section><!-- /MAIN CONTENT -->
+  </section>
+
+    <!-- js placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/common-scripts.js"></script>
+  </body>
+</html>
