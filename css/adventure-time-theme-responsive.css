@@ -132,7 +132,7 @@ ul li {
 }
 
 #main-content {
-	margin-left: -15%;
+	float: left;
 }
 
 #sidebar {
