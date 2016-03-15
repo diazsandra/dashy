@@ -44,7 +44,7 @@
           <div class="col-xs-4 col-sm-1 ">
             <div class="top-menu">
               <ul class="nav pull-right top-menu bglila logout">
-                  <li><a class="white fs1" href="login.html">Logout</a></li>
+                  <li><a data-toggle="modal" class="white fs1" href="dashboard.html#login">Logout</a></li>
               </ul>
             </div>
           </div>
@@ -121,7 +121,7 @@
 
             <div class="sub">
               <li class="sub-menu">
-                  <a href="login.html" >
+                  <a data-toggle="modal" href="dashboard.html#login">
                   <i class="fa fa-book white"></i>
                   <span class="white">Login Page</span>
                   </a>
@@ -260,6 +260,71 @@
           </section><!--/wrapper -->
       </section>
   </section>
+
+  <!-- Login -->
+    <div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="login" class="modal fade">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title text-center"> Ingresa tus datos </h4>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+              <div class="col-xs-12">
+                <div id="login-page">
+                  <div class="container fluid-container well login1">
+                        <div class="colorbl" id="adventure">
+                          <h2 class="form-login-heading text-center white">Adventure time dashboard</h2>
+                        </div>
+                    <form class="form-login mg3" action="dashboard.html">
+                        <div class="login-wrap">
+                      <input type="text" class="form-control" placeholder="User ID" autofocus>
+                      <br>
+                      <input type="password" class="form-control" placeholder="Password">
+                      <label class="checkbox">
+                        <span class="pull-right">
+                          <a data-toggle="modal" href="login.html#myModal">¿Te olvidaste el password?</a>
+                        </span>
+                      </label>
+                      <button class="btn btn-theme btn-block" href="dashboard.html" type="submit"><i class="fa fa-lock"></i> INGRESAR</button>
+                      <hr>
+                      <div class="login-social-link centered">
+                        <p>o puedes ingresar via tu red social</p>
+                        <button class="btn btn-facebook" type="submit"><i class="fa fa-facebook"></i> Facebook</button>
+                        <button class="btn btn-twitter" type="submit"><i class="fa fa-twitter"></i> Twitter</button>
+                      </div>
+                      <div class="registration">
+                        ¿No tienes cuentas aún?<br/>
+                        <a class="" href="#">
+                          Crea tu cuenta
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>    
+
+          <div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="myModal" class="modal fade">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">¿Te olvidaste el password?</h4>
+                  </div>
+                  <div class="modal-body">
+                    <p>Ingresa tu email para recuperar tu contraseña.</p>
+                    <input type="text" name="email" placeholder="Email" autocomplete="off" class="form-control placeholder-no-fix">
+                  </div>
+                  <div class="modal-footer">
+                    <button data-dismiss="modal" class="btn btn-default" type="button">Cancelar</button>
+                    <button class="btn btn-theme" type="button">Enviar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
 
     <!-- js placed at the end of the document so the pages load faster -->
     <script src="js/jquery.js"></script>
